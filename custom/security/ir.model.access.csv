@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+custom.access_custom_model_a,access_custom_model_a,custom.model_custom_model_a,base.group_user,1,1,1,1
+custom.access_custom_model_b,access_custom_model_b,custom.model_custom_model_b,base.group_user,1,1,1,1

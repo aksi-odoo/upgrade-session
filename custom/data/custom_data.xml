@@ -1,0 +1,93 @@
+<odoo noupdate="1">
+
+    <record model="custom.model.a" id="peter_griffin">
+        <field name="name">Peterr Griffin</field>
+        <field name="sequence">1</field>
+        <field name="sel">l</field>
+    </record>
+
+    <record model="custom.model.a" id="lois_griffin">
+        <field name="name">Lois Griffin</field>
+        <field name="sequence">2</field>
+        <field name="sel">m</field>
+    </record>
+
+    <record model="custom.model.a" id="stewie_griffin">
+        <field name="name">Stewie Griffin</field>
+        <field name="sequence">3</field>
+        <field name="sel">s</field>
+    </record>
+
+    <record model="custom.model.a" id="brian_griffin">
+        <field name="name">Brian Griffin</field>
+        <field name="sequence">4</field>
+        <field name="sel">m</field>
+    </record>
+
+    <record model="custom.model.a" id="meg_griffin">
+        <field name="name">Meg Griffin</field>
+        <field name="sequence">5</field>
+        <field name="sel">m</field>
+    </record>
+
+    <record model="custom.model.a" id="chris_griffin">
+        <field name="name">Chris Griffin</field>
+        <field name="sequence">6</field>
+        <field name="sel">l</field>
+    </record>
+
+    <record model="custom.model.a" id="glenn_quagmire">
+        <field name="name">Glenn Quagmire</field>
+        <field name="sequence">7</field>
+        <field name="sel">m</field>
+    </record>
+
+    <record model="custom.model.a" id="cleveland_brown">
+        <field name="name">Cleveland Brown</field>
+        <field name="sequence">8</field>
+        <field name="sel">l</field>
+    </record>
+
+    <record model="custom.model.a" id="joe_swanson">
+        <field name="name">Joe Swanson</field>
+        <field name="sequence">9</field>
+        <field name="sel">l</field>
+    </record>
+
+    <record model="custom.model.a" id="bonnie_swanson">
+        <field name="name">Bonnie Swanson</field>
+        <field name="sequence">10</field>
+        <field name="sel">m</field>
+    </record>
+
+    <record model="custom.model.a" id="herbert">
+        <field name="name">Herbert</field>
+        <field name="sequence">11</field>
+        <field name="sel">s</field>
+    </record>
+
+    <record model="custom.model.a" id="adam_west">
+        <field name="name">Adam West</field>
+        <field name="sequence">12</field>
+        <field name="sel">m</field>
+    </record>
+
+    <record model="custom.model.a" id="consuela">
+        <field name="name">Consuela</field>
+        <field name="sequence">13</field>
+        <field name="sel">s</field>
+    </record>
+
+    <record model="custom.model.a" id="tom_tucker">
+        <field name="name">Tom Tucker</field>
+        <field name="sequence">14</field>
+        <field name="sel">m</field>
+    </record>
+
+    <record model="custom.model.a" id="mort_goldman">
+        <field name="name">Mort Goldman</field>
+        <field name="sequence">15</field>
+        <field name="sel">s</field>
+    </record>
+
+</odoo>

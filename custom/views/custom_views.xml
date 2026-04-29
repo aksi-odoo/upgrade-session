@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<odoo>
+    <record model="ir.ui.view" id="view_custom_model_form">
+        <field name="name">Custom model A</field>
+        <field name="model">custom.model.a</field>
+        <field name="arch" type="xml">
+            <form string="Custom model">
+                <sheet>
+                    <group name="general_attributes" col="4">
+                        <field name="name" />
+                        <field name="sequence" />
+                        <field name="sel" />
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_custom_model_tree">
+        <field name="name">Custom model</field>
+        <field name="model">custom.model.a</field>
+        <field name="arch" type="xml">
+            <list string="Custom model">
+                <field name="name" />
+                <field name="sequence" />
+                <field name="sel" />
+            </list>
+        </field>
+    </record>
+
+    <record model="ir.actions.act_window" id="action_custom_model_a_form">
+        <field name="name">Custom model A</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">custom.model.a</field>
+        <field name="view_mode">list,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Add a new Custom model A record
+            </p>
+            <p>
+                A Custom model defines nothing
+            </p>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_custom_model_b_form">
+        <field name="name">Custom model B</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">custom.model.b</field>
+        <field name="view_mode">list,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Add a new Custom model B record
+            </p>
+            <p>
+                A Custom model B defines nothing
+            </p>
+        </field>
+    </record>
+
+
+</odoo>

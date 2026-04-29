@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <menuitem id="custom_app_menu_root" name="Custom App" web_icon="custom,static/description/icon.png">
+        <menuitem id="custom_app_ad_menu" name="test">
+            <menuitem id="custom_menu_action_a" action="action_custom_model_a_form" sequence='0'/>
+            <menuitem id="custom_menu_action_b" action="action_custom_model_b_form" sequence='10'/>
+        </menuitem>
+    </menuitem>
+</odoo>
