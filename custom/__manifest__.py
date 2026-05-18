@@ -1,6 +1,6 @@
 {
     "name": "Custom App",
-    "version": "1.0",
+    "version": "1.1",
     "summary": "custom app",
     "description": """
 This is a Custom App

@@ -1,7 +1,7 @@
 <odoo noupdate="1">
 
     <record model="custom.model.a" id="peter_griffin">
-        <field name="name">Peterr Griffin</field>
+        <field name="name">Peter Griffin</field>
         <field name="sequence">1</field>
         <field name="sel">l</field>
     </record>
@@ -40,12 +40,6 @@
         <field name="name">Glenn Quagmire</field>
         <field name="sequence">7</field>
         <field name="sel">m</field>
-    </record>
-
-    <record model="custom.model.a" id="cleveland_brown">
-        <field name="name">Cleveland Brown</field>
-        <field name="sequence">8</field>
-        <field name="sel">l</field>
     </record>
 
     <record model="custom.model.a" id="joe_swanson">
